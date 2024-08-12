@@ -2,10 +2,10 @@ module github.com/cubefs/cubefs
 
 go 1.15
 
-replace (
-	github.com/jacobsa/fuse => ./depends/jacobsa/fuse
-	github.com/spf13/cobra => ./depends/spf13/cobra
-)
+//replace (
+//	github.com/jacobsa/fuse => ./depends/jacobsa/fuse
+//	github.com/spf13/cobra => ./depends/spf13/cobra
+//)
 
 require (
 	github.com/Shopify/sarama v1.33.0
